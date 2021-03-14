@@ -1,0 +1,69 @@
+Maak de 3 opdrachten over for loops met verschillende files in de opdracht-map.
+
+even-odd-reporter.js
+
+multiplication-tables.js
+
+grade-assigner.js
+
+Veel plezier!
+
+
+1. Even Odd Reporter
+Schrijf een loop die "iterate" van 0 tot 20. 
+Voor elke loop, check of het huidige nummer even is of oneven (odd).
+Console.log het nummer.
+
+Tip: .
+
+Resultaat in de console:
+1 is oneven 
+2 is even 
+3 is oneven 
+4 is even 
+etc.... 
+
+2. Multiplication tables
+Iedereen kent ze nog wel: de tafel tabellen van de basischool. We gaan nu een script schrijven dat de tafel tabellen voor je print in de console. 
+Schrijf een loop die "iterate" van 0 tot 10. 
+Gebruik voor het eerste voorbeeld de tafel van 9. 
+Console.log elke keer de uitkomst van de tafel van 9 naar de console. 
+
+Resultaat: 
+1 x 9 = 9 
+2 x 9 = 18 
+3 x 9 = 27 
+etc.....
+
+Bonus: gebruik een geneste for-loop, om alle tafels van 1 t/m 10 te printen naar de console. 
+Het resultaat bestaat uit 100 regels code in je console. 
+
+
+3. The Grade Assigner 
+Voor de volgende for-loop krijg je de volgende functie cadeau: 
+
+
+function assignGrade(score) {
+    if (score > 90) {
+        return 'A';
+    } else if (score > 80) {
+        return 'B';
+    } else if (score > 70) {
+        return 'C';
+    } else if (score > 65) {
+        return 'D';
+    } else {
+        return 'F';
+    }
+}
+Schrijf een for-loop dit "iterate" van 60 tot 100. Dit is de "score" (grade)  van de student.
+Voor elke loop, roep de bovenstaande functie aan met de i (grade) als argument. 
+Console.log vervolgens: "Voor 91 punten, krijg je een A". 
+De uitkomst is 40 regels lang. 
+
+ "Voor 60 punten, krijg je een F". 
+....
+"Voor 66 punten, krijg je een D".
+....
+"Voor 85 punten, krijg je een B"
+etc etc. 
